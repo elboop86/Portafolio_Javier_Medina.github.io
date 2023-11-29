@@ -3,8 +3,16 @@
         "rol": "Desarrollador Front-end",
         "description": "Desarrollador web tanto en Frontend como Backend. Me apasiona el diseño y la programación. Me gusta aprender cosas nuevas y crear cosas increibles."
     },
+
+    "title": {
+      "rol": "Experiencia",
+      "rol2": "Aficiones"
+    },
+    
     "experience": {
-        "rol": "Desarrollador Web"
+        "rol": "Desarrollador Web",
+        "description": "Experiencia en proyectos estudiantiles tanto solo como en grupo. Me adapto bien a trabajar en equipo, siempre dispuesto a seguir aprendiendo y ha aportar todo mis conocimientos al proyecto",
+        "employment": "No tengo experiencia en empresas"
     },
 
     "hobbies1": {
@@ -28,6 +36,10 @@
   "description": "E-comerc de productos del huerto a la mesa. Web de productos de alimentación directos del agricultor a la mesa de ada hogar sin intermediarios. En ella el usuario se puede ver los productos, crear un usuario, logearse... Aplicado Spring Security y base de datos mysql. Responsive en todos los formatos de pantalla. Trabajo en equipo de 4 personas ",
   "duration": "1 mes"
 
+},
+
+"cards": {
+  "year": "Años de experiencía"
 },
 
  "projectJava1": {

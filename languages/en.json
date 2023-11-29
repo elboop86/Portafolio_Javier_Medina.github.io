@@ -1,11 +1,20 @@
 {
   "profile": {
-    "role": "Front-end Developer",
+    "rol": "Front-end Developer",
     "description": "More than 1 year of experience programming in web development with HTML, CSS, JavaScript, and Angular. Less experience in Angular, as I have touched it less. Passionate about programming, especially the design part. My purpose is to enter the workforce doing what I love to do, which is to continue learning and growing professionally."
   },
+
+   "title": {
+      "rol": "Experience",
+      "rol2": "Hobbies"
+    },
+
   "experience": {
-    "role": "Web Developer"
+    "rol": "Web Developer",
+    "description": "Experience in student projects, both solo and in groups. I adapt well to teamwork, always willing to keep learning and to contribute all my knowledge to the project",
+    "employment": "No work experience"
   },
+
 
   
   "hobbies1": {
@@ -20,6 +29,10 @@
     "title": "Swimming",
     "description": "I go swimming 3 times a week, it's great for my body and mind"
   },
+
+  "cards": {
+  "year": "Years of experience"
+},
 
 
   "projectAngular": {
