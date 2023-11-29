@@ -1,0 +1,53 @@
+{
+  "profile": {
+    "role": "Front-end Developer",
+    "description": "More than 1 year of experience programming in web development with HTML, CSS, JavaScript, and Angular. Less experience in Angular, as I have touched it less. Passionate about programming, especially the design part. My purpose is to enter the workforce doing what I love to do, which is to continue learning and growing professionally."
+  },
+  "experience": {
+    "role": "Web Developer"
+  },
+
+  
+  "hobbies1": {
+    "title": "Riding my Trik-Azub",
+    "description": "Going for rides on the beach and in the mountains"
+  },
+  "hobbies2": {
+    "title": "Walking my dog",
+    "description": "I go for walks with my dog every day for at least half an hour"
+  },
+  "hobbies3": {
+    "title": "Swimming",
+    "description": "I go swimming 3 times a week, it's great for my body and mind"
+  },
+
+
+  "projectAngular": {
+    "title": "EkoTokio",
+    "languages": ["Angular", "HTML", "CSS", "GitHub", "Trello", "MySQL"],
+    "description": "E-commerce of produce from garden to table. Web of food products direct from the farmer to the table of each home without intermediaries. In it, the user can see the products, create a user, log in... Applied Spring Security and mysql database. Responsive on all screen formats. Teamwork of 4 people",
+    "duration": "1 month"
+  },
+
+  "projectJava1": {
+    "title": "TallerFundAdecco",
+    "languages": ["JAVA", "HTML", "CSS", "GitHub", "Trello", "MySQL", "SPRING SECURITY"],
+    "description": "Api for a mechanic workshop where the customer has their file and can book an appointment for their repair, modify their data, request a quote, choose a professional and workshop in the network. With mysql database. Responsive in all screen formats",
+    "duration": "1 month"
+  },
+
+  "projectJavaSpring": {
+    "title": "Filmo Tokio",
+    "languages": ["Java", "HTML", "CSS", "BOOTSTRAP", "SPRINGBOOT", "SPRING SECURITY", "MAVEN", "GitHub", "Trello", "MYSQL", "API-REST", "PROCESO BATCH"],
+    "description": "Final api of a film library course where a user can create a movie, rate it, make a critique, log in, log out. The user can only rate once per movie. It has two roles and depending on whether you are admin or user you can access more or less domain of the app. Uses mysql database, Has two integrated modules (Api-Rest and Batch Process). Responsive in all screen formats",
+    "duration": "25 days"
+  },
+
+  "projectJava": {
+    "title": "Lord of the Rings",
+    "languages": ["JAVA"],
+    "description": "Final project of a Java course where I recreate a game of battles between armies (heroes and beasts) where each member fights another opponent and the side that remains alive wins. In each turn, two dice are thrown and through the result, more or less life is subtracted from the opponent.",
+    "duration": "15 days"
+  }
+}
+    

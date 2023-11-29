@@ -1,0 +1,65 @@
+/*
+
+1.  `:root` : Selecciona el elemento raíz del documento HTML y define las variables CSS personalizadas.
+
+2.  `*` : Selecciona todos los elementos y establece el modelo de caja en  `border-box` , lo que significa que el tamaño total del elemento incluirá el contenido, el padding y el borde.
+
+3.  `a` : Establece el color de texto de los enlaces en el valor de la variable  `--primary-color`  y elimina la decoración de subrayado.
+
+4.  `img` : Establece el ancho máximo de las imágenes al 100% y las hace elementos de bloque, lo que asegura que se ajusten correctamente al contenedor.
+
+5.  `body` : Establece los estilos generales para el cuerpo del documento, como el margen, el color de fondo y el color de texto. También define una transición suave para los cambios de color.
+
+6.  `body.dark` : Define los estilos específicos para el modo oscuro, cambiando el color de texto y el color de fondo.
+
+7.  `header` : Establece los estilos para la cabecera, como la visualización en línea flexible, la alineación de elementos y el color de fondo.
+
+8.  `.switches` : Establece los estilos para el contenedor de los interruptores, como la visualización en línea flexible y la alineación de elementos.
+
+9.  `.toggle-theme` : Establece los estilos para el interruptor de tema, como la visualización en línea flexible, la alineación de elementos y el cursor de puntero.
+
+10.  `.toggle-theme_icon` : Establece los estilos para el icono del interruptor de tema, como el margen derecho y el ancho.
+
+11.  `.toggle-theme_text` : Establece los estilos para el texto del interruptor de tema, como el tamaño de fuente.
+
+12.  `.colors` : Establece los estilos para el contenedor de colores, como la visualización en línea flexible, la alineación de elementos y el tamaño.
+
+13.  `.colors_item` : Establece los estilos para cada elemento de color, como el tamaño, el borde y el color de fondo. También se establece el cursor de puntero para indicar que es interactivo.
+
+14.  `.colors_item--blue` ,  `.colors_item--green` ,  `.colors_item--purple` ,  `.colors_item--orange` : Establece los estilos para cada elemento de color específico, modificando el valor de la variable  `--primary-color`  para cada uno.
+
+15.  `.title` : Establece los estilos para los títulos, como la alineación de texto y el color de texto. También define una transición suave para los cambios de color.
+
+16.  `.main` : Establece los estilos para el contenido principal, como la visualización en cuadrícula, el relleno y el espacio entre elementos.
+
+17.  `.column` : Establece los estilos para cada columna dentro del contenido principal, como la visualización en cuadrícula y el espacio entre elementos.
+
+18.  `.card` : Establece los estilos para las tarjetas, como el relleno, el color de fondo y el radio de borde.
+
+19.  `.card__image-container` : Establece los estilos para el contenedor de la imagen de la tarjeta, como el ancho mínimo, el radio de borde y el desbordamiento oculto.
+
+20.  `.card__header` : Establece los estilos para el encabezado de la tarjeta, como el relleno.
+
+21.  `.card__title` : Establece los estilos para el título de la tarjeta, como el margen, el tamaño de fuente y la opacidad.
+
+22.  `.card__link` : Establece los estilos para los enlaces dentro de la tarjeta, como el margen inferior.
+
+23.  `.card__text` : Establece los estilos para el texto de la tarjeta, como el tamaño de fuente y el espaciado de línea.
+
+24.  `.skills` : Establece los estilos para las habilidades, como el relleno superior e inferior.
+
+25.  `.skills__header` : Establece los estilos para el encabezado de las habilidades, como la visualización en línea flexible, la justificación entre elementos y el ancho.
+
+26.  `.skills__tech` : Establece los estilos para el texto de las habilidades técnicas, como el margen, el tamaño de fuente y el espaciado.
+
+27.  `.skills__item` : Establece los estilos para cada elemento de habilidad, como la visualización en línea flexible, la alineación de elementos y el margen inferior.
+
+28.  `.skills__bar` ,  `.skills__bar::after` : Establece los estilos para la barra de habilidades, como el tamaño, el color de fondo y el radio de borde. También se utiliza la seudoclase  `::after`  para representar el progreso de la barra.
+
+29.  `.skills__bar--10` ,  `.skills__bar--20` ,  `.skills__bar--30` , etc.: Establece los estilos para cada barra de habilidades específica, utilizando la variable  `--skill-bar-length`  para determinar la longitud de la barra.
+
+30.  `.icon` : Establece los estilos para los iconos, como el margen derecho.
+
+31.  `@keyframes skills-bar-fill` : Define la animación para llenar la barra de habilidades a medida que se desplaza hacia la derecha.
+
+*/
