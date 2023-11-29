@@ -429,11 +429,13 @@ header {
 
   .card__title {
     margin-top: 10px;
+    
   }
   .project__tags {
     width: 100%;
     font-size: 0.6rem;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .buttons {
     width: 100%;
