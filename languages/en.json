@@ -61,6 +61,13 @@
     "languages": ["JAVA"],
     "description": "Final project of a Java course where I recreate a game of battles between armies (heroes and beasts) where each member fights another opponent and the side that remains alive wins. In each turn, two dice are thrown and through the result, more or less life is subtracted from the opponent.",
     "duration": "15 days"
-  }
+  },
+
+  "construction": {
+  "title": "Construction Tokio",
+  "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
+  "description": "Informational website for a construction company. Final project of the web development course. User-friendly, intuitive, with cookie notice",
+  "duration": "20 days"
+}
 }
     

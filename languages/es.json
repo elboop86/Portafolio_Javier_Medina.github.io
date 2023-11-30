@@ -11,7 +11,7 @@
     
     "experience": {
         "rol": "Desarrollador Web",
-        "description": "Experiencia en proyectos estudiantiles tanto solo como en grupo. Me adapto bien a trabajar en equipo, siempre dispuesto a seguir aprendiendo y ha aportar todo mis conocimientos al proyecto",
+        "description": "Experiencia en proyectos estudiantiles tanto solo como en grupo. Me adapto bien a trabajar en equipo, siempre dispuesto a seguir aprendiendo y aportar todo mis conocimientos al proyecto",
         "employment": "No tengo experiencia en empresas"
     },
 
@@ -49,7 +49,7 @@
   "duration": "1 mes"
 },
 
- "project JavaSpring": {
+ "projectJavaSpring": {
     "title": "FilmoTokio",
   "lenguages": ["Java", "HTML", "CSS","BOOTSTRAP", "SPRINGBOOT", "SPRING SECURITY", "MAVEN", "GITHUB", "TRELLO", "MYSQL", "API-REST", "PROCESO BATCH"],
   "description": "Api final curso de SpringBoot de una filmoteca donde un usuario puede crear una pelicula, puntuar, hacer critica, logearse, salir de la sesion, El usuario solo puede puntuar una vez por pelicula. Tiene dos roles y dependiendo de si eres admin o user puedes acceder a más o menos dominio de la app. Utiliza base de datos mysql, Tiene dos modulos integrados (Api-Rest y Proceso batch). Responsive en todos los formatos de pantalla",
@@ -61,5 +61,12 @@
   "lenguages": ["JAVA"],
   "description": "Proyecto final de curso de Java donde recreo un juego de batallas entre ejercitos (heroés y béstias) donde cada integrante lucha con otro oponente y gana el bando que queda con vida. En cada turno se tiran dos dados y a través del resultado se resta más o menos vida al oponente. ",
   "duration": "15 días"
+  },
+  
+  "construction": {
+    "title": "Construccion Tokio",
+    "lenguages": ["HTML", "CSS", "JAVASCRIPT","RESPONSIVE"],
+    "description": "Web informativa de empresa de construccion. Proyecto final del curso desarrollo web. Facil para el usuario, intuitiva, con aviso de cookies",
+    "duration": "20 días"
   }
 }
