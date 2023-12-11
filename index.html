@@ -1,303 +1,419 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="https://kit.fontawesome.com/fc79ff607b.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
-  </head>
-  <body class="dark">
-    <header class="header">
-        <div class="switches">
-            <div id="toggle-theme" class="toggle-theme">
-              <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme_icon" />
-              <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web_Javier_Medina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="enviar.php">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Javier Medina Cabrerizo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto.png" alt=""> 
+            </div>
+            <h1>Javier Medina Cabrerizo</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://elboop86.github.io/Portafolio_Javier_Medina.github.io/"><i class="fa-solid fa-address-card"></i></a>
+                <a href="https://github.com/elboop86"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/javier-medina-cabrerizo/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-            <div  id="flags" class="flags">
-              <div class="flags__item" data-language="es">
-                <img src="assets/icons/es.svg" alt="español"/>
-              </div>
+
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+                <p><span>Hola, soy Javier Medina Cabrerizo </span>Persona dinamíca, emprendedor con muchas inquitudes en el mundo del desarrollo web
+                     full stack. Siempre con ganas de seguir evolucionando en lo personal, profesional y educativo. Soy una persona con valores, 
+                     sociable, positiva en todos los aspectos de mi vida. Soy un desarrollador ful stack tanto en Front-End como Back-End. Me gustaría
+                      dedicar mis conocimientos en la parte Backend, especializarme en el lenguaje java. He dedicado este ultimo año a estudiar y
+                       programar dedicando el 100% de mi mente, cuerpo y tiempo a ello. Busco esa primera oportunidad en este fascinante mundo del
+                        desarrollo web.
+                  </p>
+
+            <div class="fila">
+                
+                
             
-              <div class="flags__item" data-language="en">
-                <img src="assets/icons/gb.svg" alt="ingles"/>
-              </div>
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            05/04/1986
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            638517997
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            javi86medina@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            <a href="https://elboop86.github.io/Portafolio_Javier_Medina.github.io/">Portafolio_Javier_Medina.github.io/</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Banyeras del Penédes
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            FREELANCE
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-dog"></i>
+                            <span>Perros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Bicicleta</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>Programar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>Nadar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                    
+                    </div>
+                </div>
             </div>
-          
+        <button><a href="img/Ultimo CV_Javier_Medina_Cabrerizo.pdf">Descargar CV</a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
         </div>
-        <div id="toggle-colors" class="colors">
-          <div data-color="hsl(214,84%, 56%)" class="colors_item colors_item--blue"></div>
-          <div data-color="hsl(150,84%, 56%)" class="colors_item colors_item--green"></div>
-          <div data-color="hsl(276,84%, 56%)" class="colors_item colors_item--purple"></div>
-          <div data-color="hsl(46,84%, 56%)" class="colors_item colors_item--orange"></div>
+    </section>
+
+    <!--SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Techical skill -->
+                <div class="col">
+                    <h3>Techical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>37%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Trrabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo Web</h4>
+                        <span class="casa">Tokio school</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Carrera en diseño y desarrollo web. Más de 1250h en htmlCss, Javascript, Java, SprigBoot. Tres proyectos finales con nota de notable.
+                            -Señor de los anillos '100% java', juego de batallas entre dos ejercitos. Contrucción Tokio 'htmlCss, javascript, responsive', web informativa de
+                             empresa de construcción y FilmoTokio 'SpringBoot ,java, mysql, responsive' App de Peliculas donde el usuario crea, puntua y agrega criticas.
+                        </p>
+                              <div class="conectori">
+                                <div class="circuloi"></div>
+                              </div>  
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo con Java</h4>
+                        <span class="casa">Fundación Adecco</span>
+                        <span class="fecha">2023</span>
+                        <p>“Aprende a desarrollar proyectos web con Java” del programa Erasmus Digital School, de 215 horas de duración. Curso de Java con 
+                            proyecto final ern grupo. TallerFundAdecco 'Java, sringBoot, Maven, IntelliJ, Github, Trello, mysql'</p>
+                              <div class="conectori">
+                                <div class="circuloi"></div>
+                              </div>  
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo con Angular</h4>
+                        <span class="casa">Fundación Adecco</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollo Frontend con Angular, 215 horas de formación en progaramación funcional en componentes. Proyecto final en grupo de
+                             EkoMarket, e-comerç de productos del huerto a la mesa, 'Angular, htmlCss, github, trello, mysql'</p>
+                              <div class="conectori">
+                                <div class="circuloi"></div>
+                              </div>  
+                    </div>
+                    
+                </div>
+
+                  <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Control Accesos Ikea </h4>
+                        <span class="casa">Grupo Sifu</span>
+                        <span class="fecha">2017-2023</span>
+                        <p>Control de accesos en almacén de distrubución Ikea España, contreol de cargas y descargas de vehículos pesados,
+                            documentación, CMR...
+                            </p>
+                              <div class="conectord">
+                                <div class="circulod"></div>
+                              </div>  
+                    </div>
+
+                    <div class="item der">
+                        <h4>Vendedor/Expendedor</h4>
+                        <span class="casa">Fundosa Galenas</span>
+                        <span class="fecha">2014-2017</span>
+                        <p>Expendedor en gasolinara Repsol, control, limpieza y atención al cliente. 
+                            </p>
+                              <div class="conectord">
+                                <div class="circulod"></div>
+                              </div>  
+                    </div>
+
+                    <div class="item der">
+                        <h4>Operario instalaciónes</h4>
+                        <span class="casa">Grupo Sifu</span>
+                        <span class="fecha">2005-2013</span>
+                        <p>Atención al cliente en parking. Funciones de cobro, limpieza, conserje, aparcador de vehículos...
+                            </p>
+                              <div class="conectord">
+                                <div class="circulod"></div>
+                              </div>  
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/hor.jpg" alt="">
+                        <div class="overlay">
+                            <h3>EkoMarket</h3>
+                            <p>Angular</p>
+                        </div>
+                    </div>
+                    
+                    <div class="proyecto">
+                        <img src="img/java.jpg" alt="">
+                        <div class="overlay">
+                            <h3>TallerFundAdecco</h3>
+                            <p>Java/SpringBoot</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/filmoteca.jpg" alt="">
+                        <div class="overlay">
+                            <h3>FilmoTokio</h3>
+                            <p>Java/SpringBoot/mysql/security</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/eco.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Construcción Tokio</h3>
+                            <p>Web Html/Css/Javascript/Responsive</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/anillos.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Señor de los anillos</h3>
+                            <p>Juego batallas,100% Java</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="img/github.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Github</h3>
+                            <p>Experiencía con estos proyectos</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
         
-    </header>
+    </section>
 
-    <main class="main">
-      <section class="column column--left">
-        <!--PROFILE CARD-->
-        <article class="card card-profile">
-          <div class="card__image-container">
-            <img src="assets/images/foto.png" alt=""/>
-          </div>
-          <div class="card__header">
-            <h2 class="card__title">Javier Medina Cabrerizo</h2>
-            <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador web</p>
-          </div>
-          <div class="card__body">
-            <div class="card__link">
-              <i class="fas fa-envelope icon"></i>
-              <a href="mailto:javi86medina@hotmail.com">javi86medina@hotmail.com</a>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/javi86medina@hotmail.com" method="POST" id="myForm" onsubmit="limpiarCampos()">
+                        <input type="text" name="name" placeholder="Tu nombre">
+                        <input type="number" name="phone" placeholder="Número telefónico">
+                        <input type="email" name="email" placeholder="Dirección de correo">
+                        <input type="text" name="subject" placeholder="Tema">
+                        <textarea name="name" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit" value="Enviar">
+                            Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                   </form>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="img/ubi.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Sant Miquel 159, Banyeras del Penédes
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llamame: 638 51 79 97
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: javi86medina@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          <div class="card__link">
-            <i class="fas fa-phone-alt icon"></i>
-            <a href="tel:638517997">+34-638517997</a>
-          </div>
-          <p class="card__text" data-section="profile" data-value="description">Desarrollador web tanto en Frontend como Backend.
-            Me apasiona el diseño y la programación. Me gusta aprender cosas nuevas
-            y crear cosas increibles.
-          </p>
-          </div>
-        </article>
-        <!--Experience Titulo-->
-        <article class="card card--experience">
-          <h2 class="card_title" data-section="title" data-value="rol">Experiences</h2>
-          <!--experience image-->
-          <div class="experience">
-            <img src="assets/images/experience.jpg" alt="logo" class="experience__image">
-            <div class="expirience__info">
-              <!--experience-->
-              <h3 class="experience__job"  data-section="profile" data-value="rol">Desarrollador web</h3>
-              <p class="experience__time" data-section="experience" data-value="employment">No tengo experiencía profesional en empresa</p>
-              <p class="experience__time" data-section="experience" data-value="description">Experiencia en proyectos estudiantiles tanto solo como en grupo.
-                 Me adapto bien a trabajar en equipo, siempre dispuesto a seguir aprendiendo y ha aportar todo mis conocimientos al proyecto
-                </p>
-            </div>
-          </div>
-        </article>
-        <!--Hobbies titulo-->
-        
-        <article class="card card__hobbies">
-          <h2 class="card__title" data-section="title" data-value="rol2">Hobbies</h2>
-         
-          <!--hobbies1-->
-          <h3 class="hobbie__title" data-section="hobbies1" data-value="title">Salir en trik-Azub</h3>
-          <p class="card__text" data-section="hobbies1" data-value="description">Salir a pasear en mi trick, hacer rutas o hacer correr a mi perro</p>
-           <div class="card__image-container">
-            <img src="assets/images/mantrick.jpg" alt="Man on a bike">
-          </div>
-          <!--hobbies2-->
-          <h3 class="hobbie__title" data-section="hobbies2" data-value="title">Pasear a mi perro</h3>
-          <p class="card__text" data-section="hobbies2" data-value="description">Salir a pasear en mi trick, hacer rutas o hacer correr a mi perro</p>
-           <div class="card__image-container">
-            <img src="assets/images/mananddog.jpg" alt="Man and dog">
-          </div>
-          <!--hobbies3-->
-          <h3 class="hobbie__title" data-section="hobbies3" data-value="title">Nadar</h3>
-          <p class="card__text" data-section="hobbies3" data-value="description">Nadar en piscina</p>
-          <div class="card__image-container">
-            <img src="assets/images/manswimming.jpg" alt="man swimming ">
-          </div>
-        </article>
-      </section>
-      <!--Cards Lenguages-->
-      <!--FrontEnd-->
-      <section class="column column--right">
-        <article class="card">
-          <h2 class="card__title">Front End</h2>
-          <small data-section="cards" data-value="year">Años de Experiencia</small>
-          <div class="skills__header">
-            <span class="skills__start-level">0</span>
-            <span class="skills__start-level">1.5</span>
-          </div>
-          <div class="skills">
-            <div class="skills__item">
-            <p class="skills__tech">HTML</p>
-            <div class="skills__bar skills__bar--70"></div>
-            </div>
-             <div class="skills__item">
-            <p class="skills__tech">CSS</p>
-            <div class="skills__bar skills__bar--60"></div>
-            </div>
-             <div class="skills__item">
-            <p class="skills__tech">JAVASCRIPT</p>
-            <div class="skills__bar skills__bar--50"></div>
-            </div>
-             <div class="skills__item">
-            <p class="skills__tech">ANGULAR</p>
-            <div class="skills__bar skills__bar--40"></div>
-            </div>
-          </div>
-        </article>
-      <!--BackEnd-->
-        <article class="card">
-          <h2 class="card__title">Back End</h2>
-          <small data-section="cards" data-value="year">Años de Experiencia</small>
-          <div class="skills__header">
-            <span class="skills__start-level">0</span>
-            <span class="skills__start-level">1</span>
-          </div>
-             <div class="skills__item">
-              <p class="skills__tech">JAVA</p>
-              <div class="skills__bar skills__bar--50"></div>
-             </div>
-          </div>
-        </article>
-        <!--DataBase-->
-        <article class="card">
-          <h2 class="card__title">Data Base</h2>
-          <small data-section="cards" data-value="year">Años de Experiencia</small>
-          <div class="skills__header">
-            <span class="skills__start-level">0</span>
-            <span class="skills__start-level">1</span>
-          </div>
-          <div class="skills">
-              <div class="skills__item">
-                <p class="skills__tech">MYSQL</p>
-                <div class="skills__bar skills__bar--70"></div>
-              </div>
-              <div class="skills__item">
-                <p class="skills__tech">MARIA DB</p>
-                <div class="skills__bar skills__bar--60"></div>
-              </div>
-          </div>
-        </article>
-        <!--Projects-->
-        <!--EkoTokio-->
-        <article class="card card__project">
-          <div class="card__image-container">
-            <img src="assets/images/ekoMarket.jpg" alt="Landing page" class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#ANGULAR</span>
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#JAVASCRIPT</span>
-              <span class="project__tag">#RESPONS</span>
-            </div>
-            <h2 class="card__title" data-section="projectAngular" data-value="title">EkoTokio</h2>
-            <p class="card__text" data-section="projectAngular" data-value="description">E-comerc de productos del huerto a la mesa. Web de productos de alimentación directos del agricultor a la mesa de ada hogar sin intermediarios. En ella el usuario se puede ver los productos, crear un usuario, logearse...
-               Aplicado Spring Security y base de datos mysql. Responsive en todos los formatos de pantalla. Trabajo en equipo de 4 personas 
-            </p>
+        </div>
+    </section>
 
-             <p  class="card__text" data-section="projectAngular" data-value="duration"></p>
-            
-            <div class="buttons">
-              <a href="#" class="button button__primary">Demo</a>
-              <a href="#" class="button button__ghost">Code</a>
-            </div>
-          </div>
-        </article>
-        <!--TallerFundAdecco-->
-         <article class="card card__project">
-          <div class="card__image-container">
-            <img src="assets/images/taller.jpg.png" alt="Landing page" class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#JAVASCRIPT</span>
-              <span class="project__tag">#RESPONSIVE</span>
-            </div>
-            <h2 class="card__title" data-section="projectJava1" data-value="title">Taller Fund Adecco</h2>
-            <p class="card__text" data-section="projectJava1" data-value="description">Api para taller mécanico donde el cliente tiene su ficha y puede pedir cita para su reparación,
-               modificar sus datos, pedir presupuesto, elegir profesional y taller de la red. Con base de datos mysql.
-                Responsive en tos los formatos de pantalla
-            </p>
-
-             <p  class="card__text" data-section="projectJava1" data-value="duration"></p>
-            
-            <div class="buttons">
-              <!--<a href="#" class="button button__primary">Demo</a>-->
-              <a href="#" class="button button__ghost">Code</a>
-            </div>
-          </div>
-        </article>
-        <!--FilmoTokio-->
-         <article class="card card__project">
-          <div class="card__image-container">
-            <img src="assets/images/filmoTokio.jpg.jpg" alt="Landing page" class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#JAVA</span>
-              <span class="project__tag">#MYSQL</span>
-              <span class="project__tag">#RESPONSIVE</span>
-              <span class="project__tag">#API-REST</span>
-              <span class="project__tag">#PROCESO-BATCH</span>
-            </div>
-            <h2 class="card__title"  data-section="projectJavaSpring" data-value="title">Filmo Tokio</h2>
-            <p class="card__text" data-section="projectJavaSpring" data-value="description">Api final curso de SpringBoot de una filmoteca donde un usuario puede crear una pelicula, puntuar, hacer critica, logearse,
-               salir de la sesion, El usuario solo puede puntuar una vez por pelicula. Tiene dos roles y dependiendo de si eres admin o user puedes acceder a más
-                o menos dominio de la app. Utiliza base de datos mysql, Tiene dos modulos integrados (Api-Rest y Proceso batch).
-                 Responsive en todos los formatos de pantalla
-            </p>
-            <p  class="card__text" data-section="projectJavaSpring" data-value="duration"></p>
-            
-            <div class="buttons">
-              <!--<a href="#" class="button button__primary">Demo</a>-->
-              <a href="https://github.com/elboop86/Nueva-carpeta.git" class="button button__ghost">Code</a>
-            </div>
-          </div>
-        </article>
-        <!--Señor de los anillos-->
-         <article class="card card__project">
-          <div class="card__image-container">
-            <img src="assets/images/señorAnillos.jpg" alt="Landing page" class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#JAVA</span>
-            </div>
-            <h2 class="card__title" data-section="projectJava" data-value="title">Señor de los Anillos</h2>
-            <p class="card__text" data-section="projectJava" data-value="description">Proyecto final de curso de Java donde recreo un juego de batallas entre ejercitos (heroés y béstias) donde cada integrante lucha 
-              con otro oponente y gana el bando que queda con vida. En cada turno se tiran dos dados y a través del resultado se resta más o menos vida al oponente.
-            </p>
-
-             <p  class="card__text" data-section="projectJava" data-value="duration"></p>
-            
-            <div class="buttons">
-              <!--<a href="#" class="button button__primary">Demo</a>-->
-              <a href="https://github.com/elboop86/SenorDeLosAnillos.git" class="button button__ghost">Code</a>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <article class="card card__project">
-          <div class="card__image-container">
-            <img src="assets/images/construccion.jpg" alt="Landing page" class="card__image">
-          </div>
-          <div class="project">
-            <div class="project__tags">
-              <span class="project__tag">#HTML</span>
-              <span class="project__tag">#CSS</span>
-              <span class="project__tag">#JAVASCRIPT</span>
-              <span class="project__tag">#RESPONSIVE</span>
-            </div>
-            <h2 class="card__title" data-section="construction" data-value="title">ConstruccionTokio</h2>
-            <p class="card__text" data-section="construction" data-value="description">
-              "Web informativa de empresa de construccion. Proyecto final del curso desarrollo web. Facil para el usuario, intuitiva, con aviso de cookies"
-            </p>
-
-             <p  class="card__text" data-section="projectJava" data-value="duration"></p>
-            
-            <div class="buttons">
-              <a href="https://elboop86.github.io/construccionTokio.github.io" class="button button__primary">Demo</a>
-              <a href="https://github.com/elboop86/ConstruccionTokio.git" class="button button__ghost">Code</a>
-            </div>
-          </div>
-        </article>
-      </section>
-      
-    </main>
-    <script src="js/scripts.js"></script>
-  </body>
+    <!--SECCION FOOTER -->
+   <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://elboop86.github.io/Portafolio_Javier_Medina.github.io/"><i class="fa-solid fa-address-card"></i></a>
+        <a href="https://github.com/elboop86"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/javier-medina-cabrerizo/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+   </footer>
+   <script src="js/script.js"></script>
+</body>
 </html>
