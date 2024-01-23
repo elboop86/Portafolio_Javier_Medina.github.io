@@ -69,5 +69,16 @@
     "lenguages": ["HTML", "CSS", "JAVASCRIPT","RESPONSIVE"],
     "description": "Web informativa de empresa de construccion. Proyecto final del curso desarrollo web. Facil para el usuario, intuitiva, con aviso de cookies",
     "duration": "20 días"
+  },
+  "css": {
+  "title": "web css",
+  "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
+  "description": "Web que muestro mis habilidades en Css con sliders, grid, layouts, envio formulario, responsive"
+
+},
+  "web_personal": {
+    "title": "web personal",
+    "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
+    "description": "Web que muestro mis habilidades en Html Css JavaScript, totalmente resposive, interactiva para el usuario"
   }
 }

@@ -69,6 +69,18 @@
   "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
   "description": "Informational website for a construction company. Final project of the web development course. User-friendly, intuitive, with cookie notice",
   "duration": "20 days"
-}
+},
+  "css": {
+  "title": "Css website",
+  "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
+  "description": "A website that showcases my CSS skills, including sliders, grids, layouts, form submission, and responsiveness."
+
+},
+  "web_personal": {
+    "title": "website personal",
+    "languages": ["HTML", "CSS", "JAVASCRIPT", "RESPONSIVE"],
+    "description": "A website that demonstrates my HTML, CSS, and JavaScript skills, and that is fully responsive and user-interactive"
+  }
+
 }
     
