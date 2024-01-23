@@ -1,7 +1,8 @@
 {
     "profile": {
         "rol": "Desarrollador Front-end",
-        "description": "Desarrollador web tanto en Frontend como Backend. Me apasiona el diseño y la programación. Me gusta aprender cosas nuevas y crear cosas increibles."
+        "description": "Desarrollador web full stack apasionado por el diseño y la programación. Creatividad, innovación y pasión por el aprendizaje",
+        "description1": "Soy un desarrollador web full stack con un profundo conocimiento y experiencia en el diseño y la programación. Me apasiona crear sitios web y aplicaciones web que sean atractivos, funcionales e innovadores. En mis proyectos, he demostrado mi capacidad para: Desarrollar interfaces web atractivas y fáciles de usar. Implementar funcionalidades complejas y dinámicas. Construir aplicaciones web escalables y seguras. Siempre estoy buscando nuevas formas de aprender y crecer como desarrollador. Soy un individuo motivado y orientado a resultados con una fuerte ética de trabajo. También soy un jugador de equipo y siempre estoy dispuesto a ayudar a los demás. Estoy seguro de que tengo las habilidades y la experiencia necesarias para ser un activo valioso para cualquier equipo. Estoy ansioso por aprender más sobre su empresa y las oportunidades que tiene disponibles."
     },
 
     "title": {
@@ -11,8 +12,8 @@
     
     "experience": {
         "rol": "Desarrollador Web",
-        "description": "Experiencia en proyectos estudiantiles tanto solo como en grupo. Me adapto bien a trabajar en equipo, siempre dispuesto a seguir aprendiendo y aportar todo mis conocimientos al proyecto",
-        "employment": "No tengo experiencia en empresas"
+        "description": "En mis proyectos he desarrollado webs y apps completas, dinámicas, responsives y atractivas para el usuario, de fácil usabilidad. He trabajado con una variedad de tecnologías, incluyendo HTML, CSS, JavaScript,React, Angular, Java y MySQL... Me apasiona aprender y crecer profesionalmente, y estoy siempre dispuesto a aportar mis conocimientos y habilidades a cualquier equipo.",
+        "employment": "En busca de mi primera oportunidad laboral en el sector web, tanto prácticas como empleo.Soy un joven desarrollador web con pasión por el oficio. Me considero un profesional versátil y adaptable, con experiencia en proyectos estudiantiles tanto individuales como grupales."
     },
 
     "hobbies1": {
